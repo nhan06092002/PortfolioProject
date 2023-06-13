@@ -1,10 +1,5 @@
 ﻿select * from Portfolio..CovidDeaths
 order by 3,4
---order by 3,4 nghĩa là xắp xếp theo cột thứ 3 và thứ 4 tăng dần
-
---select * from Portfolio..CovidVaccinations
---order by 3,4
-
 
 ---Truy vấn dữ liệu cần sử dụng
 select location,date,total_cases,new_cases,total_deaths,population
